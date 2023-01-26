@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    background-image: url('image/hero-bg.png');
+    background-color: #0e1d34;
+    height: 90vh;width: 100%;
+    background-position: center;
+}
+
+  .mas-head form .form-control {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    margin-right: 10px;
+}
+
+#box {
+    background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url('image/cta-bg.jpg') center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+#box-2 {
+    background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url('image/testimonials-bg.jpg') center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+footer{
+    height: 50vh;
+}
+  footer .icons a{
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    width: 40px;height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;margin-right: 10px;    
+}
+@media (max-width:1200px) {
+    .container-fluid{
+        height:180vh;
+        width: 100%;
+        background-position: center;
+    }
+    footer{
+        height: 80vh;
+    }
+    
+}
